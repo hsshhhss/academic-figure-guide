@@ -1,0 +1,23 @@
+\documentclass{article}
+
+% An important package. Providing \linewidth 
+\usepackage{graphicx}
+
+% eps format cannot be directly included into latex. So we use this package to transform it to pdf. 
+\usepackage{epstopdf}
+
+\begin{document}
+
+Zoom in and look at the corners of the green lines.
+
+\begin{figure}
+    \includegraphics[width = 0.99 \linewidth]{bitmap-image.png}
+    \caption{Bitmap image.}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width = 0.99 \linewidth]{vector-image.eps}
+    \caption{Vector image.}
+\end{figure}
+
+\end{document}
