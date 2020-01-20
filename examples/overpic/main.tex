@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage[margin=0.5in]{geometry}
+
+% An important package. Providing \linewidth 
+\usepackage{graphicx}
+
+% Package that let us write text over a figure.
+\usepackage{overpic}
+
+\begin{document}
+
+\begin{figure}[htp]
+    \centering
+    \begin{overpic}[width = 0.8 \linewidth]{figure.pdf}
+        \put (20, 10) {$x = 100$}
+        \put (50, 20) {\Large $x = 100$}
+        \put (70, 35) {\LARGE $x = 100$}
+    \end{overpic}
+    \caption{Image with overpic text.}
+\end{figure}
+
+\end{document}

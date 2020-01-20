@@ -16,7 +16,9 @@ Han's personal experience on generating academic figures for publications.
 
     In my opinion, if there is any text in the figure, its font should always match the font in latex. 
     There are basically two ways to ensure font consistency. 
-    1. When generating the figures, make sure the font matches. For example, in *matplotlib*, we can actually use latex to generate all the text. See `examples/pyplot-latex-font`
+    1. When generating the figures, make sure the font matches. For example, in *matplotlib*, we can actually use latex to generate all the text. See `examples/pyplot-latex-font`.
+    1. Generate figures without text, and manually add text in latex later. We will use latex package [*overpic*](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/overpic/overpic.pdf) for this purpose. An example is provided in `examples/overpic`. 
+    1. Sometimes you can just "draw" the figure in latex using [the *tikz* package](https://www.overleaf.com/learn/latex/TikZ_package).
 
 1. Print-ability.
 
