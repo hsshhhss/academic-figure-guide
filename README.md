@@ -37,9 +37,11 @@ The items listed below are more about personal preference.
 
 ## Detailed Instructions to Every Type of Figure (unfinished)
 
-1. Image taken by a camera. 
+1. A real image. 
 
-1. Illustrational figures.
+    As stated earlier, if the image is large, then you may convert it to vector image to make it smaller. Other than this, there is not much thing to care about when you include a real image. Of course, you want to adjust lightning and object placement if you take a photo on yourself.
+
+1. Illustrational figures. (unfinished)
 
     1. 3rd party software, e.g., 
     [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) ($20 per month),
@@ -47,3 +49,5 @@ The items listed below are more about personal preference.
     1. [Tikz](https://www.overleaf.com/learn/latex/TikZ_package).
 
 1. Plots in the evaluation section.
+
+    The tool I use is [matplotlib](https://matplotlib.org/) and Python. Matplotlib is a very powerful and versatile tool. In `examples/matplotlib-template`, I provide a template including some of my mostly used matplotlib functionalities.
