@@ -41,12 +41,19 @@ The items listed below are more about personal preference.
 
     As stated earlier, if the image is large, then you may convert it to vector image to make it smaller. Other than this, there is not much thing to care about when you include a real image. Of course, you want to adjust lightning and object placement if you take a photo on yourself.
 
-1. Illustrational figures. (unfinished)
+1. Illustrational figures.
 
-    1. 3rd party software, e.g., 
+    We often use figures to explain the problem or the proposed algorithms. There are generally two ways to generate this type of figures.
+
+    1. Use a drawing software that can export vector images, e.g., 
     [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) ($20 per month),
-    [Gravit Designer](https://designer.gravit.io/) (free).
-    1. [Tikz](https://www.overleaf.com/learn/latex/TikZ_package).
+    [Gravit Designer](https://designer.gravit.io/) (free). 
+    I use Gravit due to its cost. 
+
+    1. Draw the figure directly in Latex. Here, we often use the Latex package [Tikz](https://www.overleaf.com/learn/latex/TikZ_package). 
+    
+    Both methods have their advantages and disadvantages. 
+    For me personally, I use the first method much more than the second one since it saves a significant amount of time. But for math-heavy content (e.g., plot a complex function), I would use Tikz.  
 
 1. Plots in the evaluation section.
 
