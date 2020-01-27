@@ -35,7 +35,7 @@ The items listed below are more about personal preference.
 
     Apart from black, three colors I often use are green, light blue, and orange (see Fig.2 in [this paper](https://arxiv.org/pdf/1904.02598.pdf)). The resulting figure often looks good in terms of coloring. 
 
-## Detailed Instructions to Every Type of Figure (unfinished)
+## Detailed Instructions to Every Type of Figure
 
 1. A real image. 
 
